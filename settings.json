@@ -1,0 +1,28 @@
+{
+  "editor.fontSize": 16,
+  "python.linting.flake8Enabled": true,
+  "window.zoomLevel": -1,
+  "python.formatting.provider": "black",
+  "python.formatting.autopep8Args": ["max-line-length=200"],
+  "editor.formatOnSave": true,
+  "python.autoComplete.addBrackets": true,
+  "workbench.colorTheme": "Black Ocean",
+  "git.autofetch": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.enabled": true,
+  "git.path": "C:\\Program Files\\git\\cmd\\git.exe",
+  "python.dataScience.maxOutputSize": -1,
+  "code-runner.clearPreviousOutput": true,
+  "breadcrumbs.enabled": true,
+  "search.collapseResults": "alwaysExpand",
+  "terminal.integrated.scrollback": 50000,
+  "editor.largeFileOptimizations": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
