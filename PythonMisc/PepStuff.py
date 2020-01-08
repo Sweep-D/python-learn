@@ -14,3 +14,6 @@ def second_function():
 my_list = [1, 2,
            3, 4,
            5, 6]
+
+if check is true:
+    print("this is true")
