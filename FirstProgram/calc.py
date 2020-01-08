@@ -1,3 +1,8 @@
+'''
+    Program: The god damn best calculator ever
+    Author: Sweep
+    Copyright: ?
+'''
 # Actual first program. Making a calculator
 import re
 
@@ -13,11 +18,13 @@ def performMath():
     global previous
     equation = ""
 
+    # If there has been a previous calculation, use that result as the prompt
     if previous == 0:
         equation = input("Enter equation:")
     else:
         equation = input(str(previous))
 
+    # if user quits ->
     if equation == 'quit':
         print("Goodbye, human.")
         run = False
@@ -32,4 +39,3 @@ def performMath():
 
 while run:
     performMath()
-
