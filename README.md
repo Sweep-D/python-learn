@@ -34,5 +34,10 @@ Ran into an error saying that the virtualenv path isn't part of the environment.
 ### VSCode and virtualenv-wrapper
 
 To switch between different projects that may have different packages installed you can use virtualenvwrapper-win
+
 1. pip install virtualenvwrapper-win
 2. mkvirtualenv, lsvirtualenv, rmvirtualenv, workon, deactivate, add2virtualenv
+
+## Python packages
+
+Python packages index pypi.org
