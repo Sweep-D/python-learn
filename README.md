@@ -22,3 +22,17 @@ Text based RPG Game.
   - Extra characters and balance system
   - Progression? 
   - GUI?
+
+## VScode and adding python virtualenv
+
+Ran into an error saying that the virtualenv path isn't part of the environment.
+
+1. Copy the path that virtual env installed to. pip3 install virtualenv
+2. Open up system variables and add that path to your system environment PATH.
+3. Restart VScode
+
+### VSCode and virtualenv-wrapper
+
+To switch between different projects that may have different packages installed you can use virtualenvwrapper-win
+1. pip install virtualenvwrapper-win
+2. mkvirtualenv, lsvirtualenv, rmvirtualenv, workon, deactivate, add2virtualenv
