@@ -13,3 +13,12 @@ Some things to note:
 4. git clone \*\*<\repo url>\*\*
 5. Run git push to get dialog box to login.
 6. After succesful login try to git commit -> git push.
+
+## Third Project-Battle
+Text based RPG Game. 
+
+- Stuff to work on:
+  - Level system
+  - Extra characters and balance system
+  - Progression? 
+  - GUI?
